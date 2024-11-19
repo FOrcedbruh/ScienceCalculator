@@ -1,0 +1,15 @@
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\bin\Debug\ScienceCalculator.exe.config
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\bin\Debug\ScienceCalculator.exe
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\bin\Debug\ScienceCalculator.pdb
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\App.g.cs
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ScienceCalculator_MarkupCompile.cache
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ScienceCalculator_MarkupCompile.lref
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\MainWindow.baml
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ScienceCalculator.g.resources
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ScienceCalculator.Properties.Resources.resources
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ScienceCalculator.csproj.GenerateResource.cache
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ScienceCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ScienceCalculator.exe
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ScienceCalculator.pdb
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ScienceCalculator.csproj.AssemblyReference.cache
