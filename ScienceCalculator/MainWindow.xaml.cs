@@ -69,7 +69,11 @@ namespace ScienceCalculator
                         break;
                     case "∛":
                         Display.Text = Math.Pow(value, 1.0/3.0).ToString();
-                        InputDisplay.Text = string.Format("√{0}", x);
+                        InputDisplay.Text = string.Format("∛{0}", x);
+                        break;
+                    case "log":
+                        Display.Text = Math.Log(value, 10).ToString();
+                        InputDisplay.Text = string.Format("log({0})", x);
                         break;
                 }
             }

@@ -33,6 +33,7 @@
             <Button Background="#6c757d" Foreground="#fff" Content="√" FontSize="18" Click="Function_Click"/>
             <Button Background="#6c757d" Foreground="#fff" Content="∛" FontSize="18" Click="Function_Click"/>
             <Button Background="#6c757d" Foreground="#fff" Content="+/-" FontSize="18" Click="Inversion_Click"/>
+            <Button Background="#6c757d" Foreground="#fff" Content="log" FontSize="18" Click="Function_Click"/>
             <Button Background="#6c757d" Foreground="#fff" Content="binary" FontSize="18" Click="To_Binary_Click"/>
             <Button Background="#6c757d" Foreground="#fff" Content="Hexadecimal" FontSize="18" Click="To_Hex_Click"/>
             <Button Background="#6c757d" Foreground="#fff" Content="octal" FontSize="18" Click="To_Octal_Click"/>
