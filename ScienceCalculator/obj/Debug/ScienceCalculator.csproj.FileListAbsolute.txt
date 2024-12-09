@@ -15,3 +15,5 @@ C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\Sci
 C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ScienceCalculator.csproj.AssemblyReference.cache
 C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\AuthWindow.g.cs
 C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\AuthWindow.baml
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ProgerWindow.g.cs
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ProgerWindow.baml

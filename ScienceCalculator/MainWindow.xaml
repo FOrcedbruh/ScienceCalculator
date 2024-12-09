@@ -7,36 +7,43 @@
         Icon="https://img.icons8.com/color/512/apple-calculator.png"
         Title="Универсальный калькулятор" Height="600" Width="800">
     <Grid Background="Black">
-        <TextBlock Foreground="#fff" Background="Black" Name="InputDisplay" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="24" Margin="10,10,10,0"/>
-        <TextBox Name="Display" Foreground="#fff" BorderBrush="Black" Background="Black" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="24" IsReadOnly="True" Margin="10,50,10,0"/>
-        <UniformGrid Rows="7" Columns="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,100,10,10">
-            <Button Background="#6c757d" Foreground="#fff" Content="7" FontSize="18" Click="Button_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="8" FontSize="18" Click="Button_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="9" FontSize="18" Click="Button_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="/" FontSize="18" Click="Operator_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="4" FontSize="18" Click="Button_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="5" FontSize="18" Click="Button_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="6" FontSize="18" Click="Button_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="*" FontSize="18" Click="Operator_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="1" FontSize="18" Click="Button_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="2" FontSize="18" Click="Button_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="3" FontSize="18" Click="Button_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="-"  FontSize="18" Click="Operator_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="0" FontSize="18" Click="Button_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="C" FontSize="18" Click="Clear_Click"/>
-            <Button Content="=" Background="#e85d04" FontSize="26" Foreground="#fff" Click="Equals_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="+" FontSize="18" Click="Operator_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="sin(x)" FontSize="18" Click="Function_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="cos(x)" FontSize="18" Click="Function_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="tan(x)" FontSize="18" Click="Function_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="^" FontSize="18" Click="Operator_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="√" FontSize="18" Click="Function_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="∛" FontSize="18" Click="Function_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="+/-" FontSize="18" Click="Inversion_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="log" FontSize="18" Click="Function_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="binary" FontSize="18" Click="To_Binary_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="Hexadecimal" FontSize="18" Click="To_Hex_Click"/>
-            <Button Background="#6c757d" Foreground="#fff" Content="octal" FontSize="18" Click="To_Octal_Click"/>
-        </UniformGrid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="500"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock Foreground="#fff" Background="Black" Name="InputDisplay" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="24" Margin="10,10,10,0"/>
+            <TextBox Name="Display" Foreground="#fff" BorderBrush="Black" Background="Black" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="24" IsReadOnly="True" Margin="10,10,10,0"/>
+            <UniformGrid Height="auto" Rows="7" Columns="4">
+                <Button Background="#6c757d" Height="60" Foreground="#fff" Content="7" FontSize="18" Click="Button_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="8" FontSize="18" Click="Button_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="9" FontSize="18" Click="Button_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="/" FontSize="18" Click="Operator_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="4" FontSize="18" Click="Button_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="5" FontSize="18" Click="Button_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="6" FontSize="18" Click="Button_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="*" FontSize="18" Click="Operator_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="1" FontSize="18" Click="Button_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="2" FontSize="18" Click="Button_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="3" FontSize="18" Click="Button_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="-"  FontSize="18" Click="Operator_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="0" FontSize="18" Click="Button_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="C" FontSize="18" Click="Clear_Click"/>
+                <Button Content="=" Background="#e85d04" FontSize="26" Foreground="#fff" Click="Equals_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="+" FontSize="18" Click="Operator_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="sin(x)" FontSize="18" Click="Function_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="cos(x)" FontSize="18" Click="Function_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="tan(x)" FontSize="18" Click="Function_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="^" FontSize="18" Click="Operator_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="√" FontSize="18" Click="Function_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="∛" FontSize="18" Click="Function_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="+/-" FontSize="18" Click="Inversion_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="log" FontSize="18" Click="Function_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="binary" FontSize="18" Click="To_Binary_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="Hexadecimal" FontSize="18" Click="To_Hex_Click"/>
+                <Button Background="#6c757d" Foreground="#fff" Content="octal" FontSize="18" Click="To_Octal_Click"/>
+            </UniformGrid>
+        </StackPanel>
+        <Button Grid.Row="1" Width="200" Height="40" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="#e85d04" Foreground="#fff" Click="Button_Click_1">Для программиста</Button>
     </Grid>
 </Window>

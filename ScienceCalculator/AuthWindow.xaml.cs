@@ -24,7 +24,7 @@ namespace ScienceCalculator
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (password.Password == "" || username.Text == "")
+            if (password.Password != "123456" || username.Text != "Kirill")
             {
                 MessageBox.Show("Укажите данные длля входа");
             } else
