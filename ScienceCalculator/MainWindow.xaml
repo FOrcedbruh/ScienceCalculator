@@ -8,10 +8,11 @@
         Title="Универсальный калькулятор" Height="600" Width="800">
     <Grid Background="Black">
         <Grid.RowDefinitions>
-            <RowDefinition Height="500"></RowDefinition>
+            <RowDefinition Height="600"></RowDefinition>
             <RowDefinition Height="50"></RowDefinition>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0">
+            <Button Click="Button_Click_2" Width="200" Height="20" HorizontalAlignment="Right" Background="#e85d04" Foreground="#fff">Калькулятор систем счисления</Button>
             <TextBlock Foreground="#fff" Background="Black" Name="InputDisplay" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="24" Margin="10,10,10,0"/>
             <TextBox Name="Display" Foreground="#fff" BorderBrush="Black" Background="Black" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="24" IsReadOnly="True" Margin="10,10,10,0"/>
             <UniformGrid Height="auto" Rows="7" Columns="4">
@@ -44,6 +45,5 @@
                 <Button Background="#6c757d" Foreground="#fff" Content="octal" FontSize="18" Click="To_Octal_Click"/>
             </UniformGrid>
         </StackPanel>
-        <Button Grid.Row="1" Width="200" Height="40" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="#e85d04" Foreground="#fff" Click="Button_Click_1">Для программиста</Button>
     </Grid>
 </Window>

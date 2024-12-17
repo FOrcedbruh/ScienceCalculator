@@ -1,0 +1,66 @@
+﻿<Window x:Class="ScienceCalculator.CountWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScienceCalculator"
+        mc:Ignorable="d"
+        Title="CountWindow" Height="350" Width="400">
+    <Grid Background="#000">
+            <TabControl>
+
+            <TabItem Header="Двоичная (2)" Foreground="#6c757d" FontWeight="Bold">
+                    <Grid Background="#000">
+                        <StackPanel>
+                            <TextBox x:Name="BinaryInput1" Margin="5" FontSize="16" />
+                            <TextBox x:Name="BinaryInput2" Margin="5" FontSize="16"  />
+                        <ComboBox x:Name="BinaryOperation" Margin="5" FontSize="14">
+                                <ComboBoxItem Content="+" />
+                                <ComboBoxItem Content="-" />
+                                <ComboBoxItem Content="*" />
+                                <ComboBoxItem Content="/" />
+                            </ComboBox>
+                        <Button Content="Вычислить" Foreground="#fff" Background="#e85d04" Click="BinaryCalculate_Click" Margin="5" FontSize="14" />
+                            <TextBlock Foreground="#fff" TextAlignment="Center" VerticalAlignment="Center" FontSize="30" x:Name="BinaryResult" FontWeight="Bold" Margin="5" />
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+
+
+            <TabItem Header="Восьмеричная (8)" Foreground="#6c757d" FontWeight="Bold">
+                <Grid Background="#000">
+                        <StackPanel>
+                            <TextBox x:Name="OctalInput1" Margin="5" FontSize="16" />
+                            <TextBox x:Name="OctalInput2" Margin="5" FontSize="16" />
+                            <ComboBox x:Name="OctalOperation" Margin="5" FontSize="14">
+                                <ComboBoxItem Content="+" />
+                                <ComboBoxItem Content="-" />
+                                <ComboBoxItem Content="*" />
+                                <ComboBoxItem Content="/" />
+                            </ComboBox>
+                        <Button Content="Вычислить" Foreground="#fff" Background="#e85d04" Click="OctalCalculate_Click" Margin="5" FontSize="14" />
+                            <TextBlock Foreground="#fff" TextAlignment="Center" VerticalAlignment="Center" FontSize="30" x:Name="OctalResult" FontWeight="Bold" Margin="5" />
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+
+
+            <TabItem Header="Шестнадцатеричная (16)" Foreground="#6c757d" FontWeight="Bold">
+                <Grid Background="#000">
+                        <StackPanel>
+                            <TextBox x:Name="HexInput1" Margin="5" FontSize="16"/>
+                            <TextBox x:Name="HexInput2" Margin="5" FontSize="16"  />
+                            <ComboBox x:Name="HexOperation" Margin="5" FontSize="14">
+                                <ComboBoxItem Content="+" />
+                                <ComboBoxItem Content="-" />
+                                <ComboBoxItem Content="*" />
+                                <ComboBoxItem Content="/" />
+                            </ComboBox>
+                        <Button Content="Вычислить" Foreground="#fff" Background="#e85d04" Click="HexCalculate_Click" Margin="5" FontSize="14" />
+                            <TextBlock TextAlignment="Center" VerticalAlignment="Center" FontSize="30" Foreground="#fff" x:Name="HexResult" FontWeight="Bold"  Margin="5" />
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+</Window>

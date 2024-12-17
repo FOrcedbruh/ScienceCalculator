@@ -151,5 +151,11 @@ namespace ScienceCalculator
             ProgerWindow progerWindow = new ProgerWindow();
             progerWindow.Show();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            CountWindow countWindow = new CountWindow();
+            countWindow.Show();
+        }
     }
 }

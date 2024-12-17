@@ -17,3 +17,5 @@ C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\Aut
 C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\AuthWindow.baml
 C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ProgerWindow.g.cs
 C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\ProgerWindow.baml
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\CountWindow.g.cs
+C:\Users\Илья\source\repos\ScienceCalculator\ScienceCalculator\obj\Debug\CountWindow.baml
